@@ -1,0 +1,70 @@
+### Test Plan for YouTube Video Playback Feature
+
+#### **Test Case 1: Play and Pause Video**
+
+- **Objective:** Verify that users can play and pause a video.
+- **Preconditions:** User is logged in (if required) and on the video page they wish to view.
+- **Test Steps:**
+  1. Navigate to a specific video's URL.
+  2. Click the play button in the video player.
+  3. Observe the video playback.
+  4. Click the pause button in the video player.
+- **Expected Results:** The video starts playing when the play button is clicked and pauses when the pause button is clicked.
+
+#### **Test Case 2: Adjust Video Quality**
+
+- **Objective:** Ensure the user can adjust the video quality.
+- **Preconditions:** A video is currently playing.
+- **Test Steps:**
+  1. Click on the settings gear icon in the video player.
+  2. Select "Quality" from the menu.
+  3. Choose a different quality setting (e.g., 1080p).
+- **Expected Results:** The video adjusts to the selected quality without significant buffering or errors.
+
+#### **Test Case 3: Toggle Fullscreen Mode**
+
+- **Objective:** Test the functionality of entering and exiting fullscreen mode.
+- **Preconditions:** A video is currently playing.
+- **Test Steps:**
+  1. Click the fullscreen icon on the video player.
+  2. Verify that the video enters fullscreen mode.
+  3. Press the Esc key or click the exit fullscreen button.
+- **Expected Results:** The video enters and exits fullscreen mode seamlessly.
+
+#### **Test Case 4: Change Video Playback Speed**
+
+- **Objective:** Confirm that users can change the playback speed of a video.
+- **Preconditions:** A video is currently playing.
+- **Test Steps:**
+  1. Click the settings gear icon in the video player.
+  2. Select "Playback speed."
+  3. Choose a different speed (e.g., 1.5x).
+- **Expected Results:** The video plays at the selected speed, with audio pitch adjusted accordingly and without glitches.
+
+#### **Test Case 5: Video Autoplay Functionality**
+
+- **Objective:** Verify the autoplay feature works correctly, automatically playing the next suggested video.
+- **Preconditions:** Autoplay is enabled, and a video is currently playing.
+- **Test Steps:**
+  1. Wait for the current video to finish playing.
+  2. Observe whether the next suggested video starts playing automatically.
+- **Expected Results:** The next video starts playing automatically after a brief pause.
+
+#### **Test Case 6: Usability Test for Video Player Controls Visibility**
+
+- **Objective:** Ensure video player controls are easily accessible and visible when needed.
+- **Preconditions:** A video is currently paused.
+- **Test Steps:**
+  1. Hover the mouse over the video player.
+  2. Observe the visibility of the player controls (play, pause, settings, fullscreen).
+- **Expected Results:** The controls appear promptly upon hover and are easily identifiable.
+
+#### **Test Case 7: Localization of Video Player Controls**
+
+- **Objective:** Verify that video player controls are correctly localized according to the user's language settings.
+- **Preconditions:** User has set a non-English language preference in their account settings.
+- **Test Steps:**
+  1. Navigate to the video playback page.
+  2. Hover over the video player to view controls.
+  3. Check the language of the tooltips and settings menu.
+- **Expected Results:** All text within the video player controls is displayed in the user's chosen language.
